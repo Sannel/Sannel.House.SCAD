@@ -55,16 +55,16 @@ module piHolder()
 {
 	piPoll();
 	translate([0,49,0]) piPoll();
-	translate([59,0,0]) piPoll();
-	translate([59,49,0]) piPoll();
+	translate([58,0,0]) piPoll();
+	translate([58,49,0]) piPoll();
 }
 
 module piHoles()
 {
 	cylinder(d=2.5,h=8);
 	translate([0,49,0]) cylinder(d=2.5,h=8);
-	translate([59,0,0]) cylinder(d=2.5,h=8);
-	translate([59,49,0]) cylinder(d=2.5,h=8);
+	translate([58,0,0]) cylinder(d=2.5,h=8);
+	translate([58,49,0]) cylinder(d=2.5,h=8);
 }
 
 
